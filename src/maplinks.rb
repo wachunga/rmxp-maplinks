@@ -4,7 +4,7 @@
 # Wachunga
 # Version 1.0
 # 2006-10-29
-# See https://github.com/Wachunga/rmxp-maplinks for details
+# See https://github.com/wachunga/rmxp-maplinks for details
 #------------------------------------------------------------------------------
 
 #------------------------------------------------------------------------------
