@@ -1,8 +1,6 @@
 Maplinks (v 1.0)
 ===
 
-A script for [RPG Maker XP](http://en.wikipedia.org/wiki/RPG_Maker_XP), which uses Ruby. Written years ago and posted on some now-defunct forums, but may still be useful to folks.
-
 A common question among RMXP beginners is "how do you connect maps?" or "why are so many teleports needed?". The typical response is one of the following:
 
 * Block off most spaces with terrain and use a few teleport events
@@ -42,6 +40,6 @@ To avoid this dependency, remove or comment out the 3 SDK-related lines, includi
 Usage
 ---
 
-To link a map with another on a specific edge (north, east, south or west), create an event with <maplink> included in its name on the appropriate edge of the map. (To avoid confusion, maplink events on corners of the map are not valid.) Then, add a teleport ("Transfer Player") command to the event to specify the destination map and other details (e.g. player direction,  fading on/off). If the destination is an east or west edge, then the Y  coordinate is calculated based on the player's Y coordinate when  teleporting; likewise, the X coordinate is calculated automatically when the destination is a north or south edge.
+To link a map with another on a specific edge (north, east, south or west), create an event with `<maplink>` included in its name on the appropriate edge of the map. (To avoid confusion, maplink events on corners of the map are not valid.) Then, add a teleport ("Transfer Player") command to the event to specify the destination map and other details (e.g. player direction,  fading on/off). If the destination is an east or west edge, then the Y  coordinate is calculated based on the player's Y coordinate when  teleporting; likewise, the X coordinate is calculated automatically when the destination is a north or south edge.
  
 Note: unlike normal teleport events, maplinks are activated when the player tries to leave the screen instead of when stepping on the last tile. This  behaviour could be changed, but I feel that it's more natural this way: it leaves the whole map open for actual exploration, instead of "wasting" the outer tiles of a map.
