@@ -13,7 +13,7 @@ This script is designed to help. Maplinks simplify linking maps together: a sing
 
 All it takes is one event per edge of the map:
 
-![Maplinks screenshot](http://s88387243.onlinehome.us/rmxp/maplinks/maplinks.jpg)
+![Maplinks screenshot](maplinks.jpg)
 
 Features
 ---
